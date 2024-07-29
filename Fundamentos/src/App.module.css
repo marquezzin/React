@@ -1,0 +1,11 @@
+.wrapper{
+    max-width: 70rem;
+    margin: 2rem auto;
+    /* auto p centralizar o elemento horizontalmente */
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    /* tamanho das larguras das colunas(fr p tm flex) */
+    gap: 2rem;/* espaçamento entre colunas */
+    align-items: flex-start;/* alinhar pelo topo */
+}
