@@ -33,17 +33,7 @@
     margin-top: -2rem;
 }
 
-.profile img{
-    box-sizing: initial;
-    /* ao adicioonar borda,margem,padding, nao
-    exprema o que estava antes,apenas adiciona a mais */
-    width: 3rem;
-    height: 3rem;
-    border-radius: 8px;
-    border: 4px solid var(--gray-800);
-    outline: 2px solid var(--green);
-    /* linha ao redor da borda */
-}
+
 
 .sidebar footer{
     border-top: 1px solid var(--gray-600);
