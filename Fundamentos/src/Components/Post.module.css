@@ -15,6 +15,7 @@
     margin-top: 1.5rem;
 }
 
+/* line do tipo paragrafo */
 .content p{
     margin-top: 1rem;
 }
@@ -100,6 +101,7 @@
 .commentForm:focus-within footer{
     /* estilização so quando tiver foco em algo da commentForm  */
     visibility: visible ;
+    /* remove qualquer restrição de altura */
     max-height: none;
 }
 

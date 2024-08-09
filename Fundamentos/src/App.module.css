@@ -1,11 +1,14 @@
 .wrapper{
     max-width: 70rem;
+    /* vertical e horizontal */
     margin: 2rem auto;
     /* auto p centralizar o elemento horizontalmente */
     padding: 0 1rem;
-    display: grid;
+    /* é usado para criar uma estrutura geral da página com duas áreas principais:
+     uma barra lateral ( sidebar ) e o conteúdo principal ( main-content ).  */
+    display: grid; 
     grid-template-columns: 256px 1fr;
-    /* tamanho das larguras das colunas(fr p tm flex) */
+    /* tamanho das larguras das colunas(fr p tm flexivel,ocupando o restante) */
     gap: 2rem;/* espaçamento entre colunas */
     align-items: flex-start;/* alinhar pelo topo */
 }
