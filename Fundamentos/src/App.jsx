@@ -48,7 +48,7 @@ const posts = [
             {posts.map(post => {
                 return( 
                 <Post
-                  key = {post.id}
+                  key = {post.id} //evitar o erro no console, tem que ser única
                   author = {post.author}
                   content = {post.content}
                   publishedAt = {post.publishedAt}
