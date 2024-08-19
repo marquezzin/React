@@ -37,7 +37,8 @@ const [newCommentText,setNewCommentText] = useState("")
     event.preventDefault() //nao ter redirecionamento
 
     // newCommentText armazenando o conteudo da textarea
-    setComments([...comments,newCommentText]) //passa o novo valor, não apenas oq quer inserir
+     setComments([...comments,newCommentText]) //passa o novo valor, não apenas oq quer inserir
+    //ou  setComments((state) => [...state,newCommentText])
     setNewCommentText("") //limpando a textarea
     //value = newCommentText
   }
